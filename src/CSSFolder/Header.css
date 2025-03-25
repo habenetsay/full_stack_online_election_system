@@ -1,0 +1,22 @@
+.notifications-container {
+    position: fixed;
+    top: 70px; /* Adjust based on your navbar height */
+    right: 20px; /* Position from the right side */
+    background-color: white; /* Background color of the notification container */
+    border: 1px solid #ccc; /* Border around the notifications */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    max-width: 300px; /* Maximum width of the notification container */
+    z-index: 1000; /* Ensure it appears above other elements */
+    padding: 10px; /* Padding inside the container */
+}
+
+.notification-item {
+    margin-bottom: 8px; /* Space between notifications */
+    padding: 5px; /* Padding inside each notification item */
+    border-bottom: 1px solid #f1f1f1; /* Bottom border for separation */
+}
+
+.notification-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+}

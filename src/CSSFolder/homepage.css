@@ -1,0 +1,118 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Container for the entire page */
+.member-of-parliament-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header section */
+.header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #e0f7fa; /* Light blue background */
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #00796b; /* Teal color */
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Main content section */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Articles container */
+.articles-container {
+  width: 100%;
+  max-width: 800px; /* Maximum width for articles */
+  margin-bottom: 40px;
+}
+
+/* Individual article */
+.article {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.article:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Candidate profiles and election guidelines */
+.candidate-profiles,
+.election-guidelines {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 800px; /* Maximum width for profiles */
+}
+
+/* Individual candidate profile or election guideline */
+.candidate-profile,
+.guideline {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding: 60px;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+}

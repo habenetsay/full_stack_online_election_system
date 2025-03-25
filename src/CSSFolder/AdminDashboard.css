@@ -1,0 +1,213 @@
+/* AdminDashboard.css */
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+    /* Full height */
+    position: fixed;
+    /* Keep it fixed on the left */
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar-button {
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.sidebar-button:hover {
+    background-color: #444;
+    /* Darker shade on hover */
+}
+
+.main-content {
+    margin-left: 220px;
+    /* Adjust margin to accommodate sidebar width */
+    padding: 20px;
+    background-color: #f4f4f4;
+    /* Light background for main content */
+    min-height: 100vh;
+    /* Ensure it takes the full height */
+}
+
+h1 {
+    padding-left: 202px;
+    /* Main title color */
+}
+
+h2 {
+    color: #444;
+    /* Subheading color */
+}
+.notice-form {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #e0e0e0; /* Soft border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding around the form */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Max width for the form */
+    margin: 20px auto; /* Centering the form */
+}
+
+.notice-form h2 {
+    font-size: 24px; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Darker color for better readability */
+}
+
+.notice-form label {
+    display: block; /* Block display for labels */
+    margin-bottom: 10px; /* Space below each label */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.notice-form input[type="text"],
+.notice-form select,
+.notice-form textarea {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding inside the fields */
+    border: 1px solid #ccc; /* Border for fields */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below each input */
+    transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.notice-form input[type="text"]:focus,
+.notice-form select:focus,
+.notice-form textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.notice-form button {
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* White text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.notice-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.notice-form button:disabled {
+    background-color: #ccc; /* Greyed out when disabled */
+    cursor: not-allowed; /* Not allowed cursor */
+}
+.logout-button {
+    margin-left:380px;
+    margin-top:110px;
+  background-color: #ff4757; /* Red color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #e84118; /* Darker red on hover */
+}
+.admin-dashboard {
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4; /* Change to your desired background color */
+  border-bottom: 1px solid #ddd; /* Optional: Add a bottom border */
+}
+
+.logout-button {
+  padding: 10px 15px;
+  background-color: #d9534f; /* Bootstrap danger color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #c9302c; /* Darker shade on hover */
+}
+
+/* Add additional styles for sidebar and main content as needed */
+.report-container {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.campus-report {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.report-table th,
+.report-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.report-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.report-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.report-table tr:hover {
+  background-color: #f1f1f1;
+}
+.winner-row {
+  background-color: #d4edda;
+  font-weight: bold;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.report-table th, .report-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.report-table th {
+  background-color: #f2f2f2;
+}
+

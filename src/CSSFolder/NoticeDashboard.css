@@ -1,0 +1,64 @@
+/* NoticeDashboard.css */
+
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack header and content */
+    height: 100vh; /* Full viewport height */
+}
+
+.header {
+    background-color: #343a40; /* Header background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding for the header */
+    display: flex; /* Flexbox for header content */
+    justify-content: space-between; /* Space between brand and links */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Move header down from the top */
+}
+
+.header-brand {
+    font-size: 1.5rem; /* Brand font size */
+    margin-right: auto; /* Push brand to the left */
+}
+
+.header-nav {
+    display: flex; /* Flexbox for navigation links */
+}
+
+.header-nav .nav-link {
+    color: #b0bec5; /* Nav link color */
+    font-size: 1.1rem; /* Nav link font size */
+    margin-left: 20px; /* Space between links */
+}
+
+.header-nav .nav-link:hover, .header-nav .nav-link.active {
+    color: #fff; /* Active/hover text color */
+    background-color: #495057; /* Active/hover background color */
+    border-radius: 4px; /* Rounded corners */
+    padding: 5px 10px; /* Padding for links */
+}
+
+.content-wrapper {
+    padding: 20px; /* Padding for content */
+    flex-grow: 1; /* Allow content to grow */
+    margin-top: 80px; /* Create space below header (adjust this value if needed) */
+}
+
+@media (max-width: 768px) {
+    .header-nav {
+        flex-direction: column; /* Stack links vertically on smaller screens */
+        align-items: flex-start; /* Align links to the start */
+    }
+}
+/* NoticeDashboard.css */
+.header {
+    position: relative; /* Maintain the position of the header */
+    z-index: 10; /* Ensure header is on top */
+    padding: 1rem; /* Add padding for space */
+    background-color: #f8f9fa; /* Example background color */
+}
+
+.content-wrapper {
+    margin-top: 80px; /* Adjust the margin to create space below the header */
+    padding: 20px; /* Optional: Add some padding to the content */
+}

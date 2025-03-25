@@ -1,0 +1,20 @@
+.about-container {
+    margin-top: 60px; /* Adjusts for fixed navbar */
+    padding: 20px;
+}
+
+.about-card {
+    margin-bottom: 20px;
+    border: 1px solid #007bff; /* Customize border color */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h5 {
+    color: #007bff; /* Customize title color */
+}
+
+.about-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

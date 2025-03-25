@@ -1,0 +1,36 @@
+.help-container {
+    margin-top: 80px; /* Ensure the content is below the navbar */
+    padding: 20px;
+}
+
+.help-card {
+    margin: 15px 0; /* Space between cards */
+    border: 1px solid #007bff; /* Blue border for cards */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.help-card h5 {
+    color: #007bff; /* Blue color for card titles */
+    font-weight: bold; /* Bold font for emphasis */
+}
+
+.help-card ul {
+    list-style-type: disc; /* Use disc bullets for lists */
+    padding-left: 20px; /* Indent the list */
+}
+
+.help-card li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.text-center {
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .help-card {
+        margin: 10px 0; /* Reduce margin for smaller screens */
+    }
+}

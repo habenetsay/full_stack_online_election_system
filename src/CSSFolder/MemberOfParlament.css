@@ -1,0 +1,21 @@
+.form-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .form-container button {
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
